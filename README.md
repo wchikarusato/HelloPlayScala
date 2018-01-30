@@ -3,13 +3,20 @@ Play-Scalaのサンプル
 ## 前提条件
 ローカル環境: Git, Play, Scala, JDK, Eclipseがあること  
 リモート: Git, Activator, Scala, JDK があること  
-  
-## 実行方法
-```
-$ cd クローンしたリポジトリ\HelloPlayScala\Application
-$ play run
-```
+
 ## 環境構築
+### githubからクローン
+```
+任意の場所にフォルダを作成
+→ フォルダ右クリック →Gitクローン
+→ URLにhttps://github.com/wchikarusato/HelloPlayScala を入れてOK
+
+コマンドプロンプト立ち上げる
+  > cd クローンしたリポジトリ\HelloPlayScala\Application
+  > play run
+  ブラウザ起動してlocalhost:9000にアクセス→Welcome to Play表示されればok
+```
+
 ### Eclipseにプロジェクト入れる
 ```
 $ cd クローンしたリポジトリ\HelloPlayScala\Application
